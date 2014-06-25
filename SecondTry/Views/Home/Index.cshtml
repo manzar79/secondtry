@@ -28,4 +28,30 @@
         <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
+    <body>
+        <h1>My First Javascript</h1>
+        <p>Click the button to see current date and time<p>
+            <button type="button" onclick='myFunction1()' ;>Date</button>
+
+
+        <p id="button"></p>
+
+
+        <script>
+            function myFunction1() {
+                document.getElementById("button").innerHTML = Date();
+            }
+
+
+        </script>
+
+        <p id="demo">A paragraph</p>
+
+        <button type="button" onclick="myFunction2()" ;>Try It</button>
+
+        <script>
+            function myFunction2() {
+                document.getElementById("demo").innerHTML = "change";
+            }
+        </script>
 </div>
